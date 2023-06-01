@@ -25,8 +25,10 @@ const Aboutme = () => {
       </div>
 
     </section>
+
+    {/* Add pop over on images */}
 <div>
-<img class="bg-fixed h-25" src="./images/S2.jpeg"></img>
+<img class="bg-fixed h-18" src="./images/S2.jpeg" alt="Dashboard Pic"></img>
 </div>
 </>
   );
