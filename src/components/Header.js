@@ -27,7 +27,7 @@ const navigation = [
 export default function Header(props) {
   return (
     <>
-      <Disclosure as="nav" className="bg-purple-800">
+      <Disclosure as="nav" className="bg-purple-900">
         {({ open }) => (
           <>
             <div className="mx-auto max-w-10xl px-2 sm:px-6 lg:px-8">
@@ -122,7 +122,9 @@ export default function Header(props) {
           </>
         )}
       </Disclosure>
-      <div className='bg-gray-700'>
+
+      {/* background color here */}
+      <div className='bg-gray-700 '>
         <div className=' max-auto max-w-8xl min-h-screen p-2 text-white '>{props.children}</div>
       </div>
 
@@ -139,7 +141,7 @@ export default function Header(props) {
             Email: <NavLink href="mailto:seth20smith@gmail.com">seth20smith@gmail.com</NavLink>
           </p>
         </div>
-        <div className="flex justify-end space-x-2">
+        <div className="flex justify-center md:justify-end flex-wrap space-x-2 ">
           {/* icons */}
           <FontAwesomeIcon icon={faHtml5} className="h-10 w-10 text-red-600" />
           <FontAwesomeIcon icon={faCss3Alt} className="h-10 w-10 text-blue-500" />
