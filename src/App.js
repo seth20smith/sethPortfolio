@@ -3,10 +3,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // import { useState } from 'react';
 // import { v4 as uuidv4 } from 'uuid';
 import Header from './components/Header';
-import Home from './pages/Home';
-import Resume from './pages/Resume';
-import Aboutme from './pages/Aboutme';
-import Work from './pages/Work';
+import Home from './routes/Home';
+import Resume from './routes/Resume';
+import Aboutme from './routes/Aboutme';
+import Work from './routes/Work';
 
 
 
