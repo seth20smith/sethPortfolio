@@ -17,7 +17,6 @@ const navigation = [
   { name: 'About Me', href: '/Aboutme' },
   { name: 'Work', href: '/Work' },
   { name: 'Resume', href: '/Resume' },
-  { name: 'Contact', href: '/Contact' },
 ]
 
 // function classNames(...classes) {
@@ -82,7 +81,7 @@ export default function Header(props) {
                           key={item.name}
                           to={item.href}
                           className={({ isActive }) => {
-                            return ('rounded-md px-3 py-2 text-sm font-medium no-underline ' +
+                            return ('rounded-md px-3 py-2 text-lg font-medium no-underline ' +
                               (isActive
                                 ? ' bg-gray-900 text-white '
                                 : ' text-gray-300 hover:bg-gray-700 hover:text-white')

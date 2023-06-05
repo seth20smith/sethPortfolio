@@ -7,7 +7,7 @@ import Home from './pages/Home';
 import Resume from './pages/Resume';
 import Aboutme from './pages/Aboutme';
 import Work from './pages/Work';
-import Contact from './pages/Contact';
+
 
 
 function App() {
@@ -20,7 +20,6 @@ function App() {
           <Route path='/aboutme' element={<Aboutme />} />
           <Route path='/work' element={<Work />} />
           <Route path='/resume' element={<Resume />} />
-          <Route path='/Contact' element={<Contact />} />
         </Routes>
       </Header>
     </BrowserRouter>

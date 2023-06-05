@@ -1,37 +1,39 @@
 import React from 'react';
 
+const SocialButton = ({ href, logoSrc, altText, buttonText, logoSize }) => (
+  <div className="md:w-96 rounded shadow-lg p-5 bg-purple-800 m-4 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+    <div className="flex flex-col items-center justify-center mb-4">
+      <img className={logoSize} src={logoSrc} alt={altText} />
+      <a href={href} className="text-indigo-700 rounded bg-gray-50 focus:outline-none hover:opacity-90 p-2 text-sm font-medium leading-3 mt-2">{buttonText}</a>
+    </div>
+  </div>
+);
+
 const Resume = () => {
   return (
-
-    <>
-      <section className="GitHub bg-cover bg-center py-8 px-4 relative">
-        <div className="overlay  bg-opacity-50 p-4 rounded">
-          <div id="GitHub" className="mb-4">
-
-            <img className="github-image h-20 w-20 mb-2" src="./images/github-mark.png" alt="Github Logo" />
-            <a href="https://github.com/seth20smith" className="text-white underline" target="_blank" rel="noopener noreferrer">Seth Smith GitHub</a>
-          </div>
-          <div id="LinkedIn">
-
-            <img className="linkedin-image h-12 w-22 mb-2" src="./images/LI-Logo.png" alt="LinkedIn Logo" />
-            <a href="https://www.linkedin.com/in/seth20smith" className="text-white underline" target="_blank" rel="noopener noreferrer">Seth Smith LinkedIn Profile</a>
-          </div>
-        </div>
-      </section>
-      <div className="flex items-center justify-center py-8 px-4">
-        <div className="md:w-96 rounded shadow-lg p-5 bg-purple-800">
-          <h1 className="text-lg font-bold leading-7 pt-6 text-white">Learn, share and get help from our community</h1>
-          <p className="pt-4 text-xs leading-5 pr-12 text-white"></p>
-          <div className="pt-7 flex items-center justify-between">
-            <button className="text-indigo-700 rounded bg-gray-50 focus:outline-none hover:opacity-90 p-2 text-xs font-medium leading-3">Seth Smith GitHub </button>
-          </div>
-        </div>
-      </div>
-
-
-
-
-    </>
+    <div className="flex items-center justify-center py-8 px-4 flex-wrap">
+      <SocialButton 
+        href="https://github.com/seth20smith" 
+        logoSrc="./images/github-mark.png" 
+        altText="Github Logo" 
+        buttonText="Source Code" 
+        logoSize="h-20 w-20 mb-2" 
+      />
+      <SocialButton 
+        href="https://www.linkedin.com/in/seth20smith" 
+        logoSrc="./images/LI-Logo.png" 
+        altText="LinkedIn Logo" 
+        buttonText="Seth Smith LinkedIn Profile" 
+        logoSize="h-12 w-22 mb-2"
+      />
+      <SocialButton 
+        href="https://drive.google.com/file/d/1CPehENhScJSVeklNo_RfyIgz3d2HcVQ3/view?usp=sharing" 
+        logoSrc="./images/resumePic.png" 
+        altText="Resume Logo" 
+        buttonText="Seth Smith Resume"
+        logoSize="h-30 w-30 mb-2"
+      />
+    </div>
   );
 }
 
