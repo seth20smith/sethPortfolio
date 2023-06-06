@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import { useScroll } from '../components/ScrollContext';
 
 
 // Card Component
@@ -45,7 +47,17 @@ const Card3 = ({ imgSrc }) => (
   </div>
 );
 
-const Aboutme= () => {
+const Aboutme = () => {
+  const { pathname } = useLocation();
+  const {  loadScroll } = useScroll();
+
+  useEffect(() => {
+    if (loadScroll(pathname)) {
+      window.scrollTo(0, loadScroll(pathname));
+    }
+  }, [loadScroll, pathname]);
+
+ 
   return (
     <>
     <section className="AboutMe py-8 px-4">

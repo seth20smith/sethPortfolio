@@ -1,5 +1,6 @@
 import './index.css';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { ScrollProvider } from './components/ScrollContext';
 // import { useState } from 'react';
 // import { v4 as uuidv4 } from 'uuid';
 import Header from './components/Header';
@@ -13,6 +14,7 @@ import Work from './routes/Work';
 function App() {
   return (
     <Router>
+      <ScrollProvider>
       <Header>
         <Routes>
           <Route path='/' element={<Home />} />
@@ -22,6 +24,7 @@ function App() {
           <Route path='/resume' element={<Resume />} />
         </Routes>
       </Header>
+      </ScrollProvider>
     </Router>
   );
 }

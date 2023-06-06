@@ -1,8 +1,26 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../index.css'
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation, useNavigate } from 'react-router-dom';
+import { useScroll } from '../components/ScrollContext';
+
 
 function Home() {
+
+  const { pathname } = useLocation();
+  const navigate = useNavigate();
+  const { saveScroll, loadScroll } = useScroll();
+
+  useEffect(() => {
+    if (loadScroll(pathname)) {
+      window.scrollTo(0, loadScroll(pathname));
+    }
+  }, [loadScroll, pathname]);
+
+  const handleClick = (path) => {
+    saveScroll(pathname);
+    navigate(path);
+  };
+
   return (
     <>
       <section className="rounded-lg mb-40 bg-gradient-to-r from-purple-900 via-gray-500 to-gray-700 shadow-xl shadow-blue-300/20">
@@ -35,17 +53,17 @@ function Home() {
           </div>
         </div>
       </section>
-      <div className="flex flex-wrap justify-center space-x-4 sm:space-x-8 md:space-x-36 my-8 select-none border-slate-950 items-center"> 
-      <NavLink to="/Aboutme">
-          <button className="py-2 px-8 shadow-xl shadow-purple-500/20 no-underline rounded-full bg-yellow-500 text-white font-sans font-semibold text-lg  btn-primary hover:text-white  hover:animate-bounce focus:outline-none active:shadow-blue-400 mb-14">About Me</button>
-        </NavLink>
-        <NavLink to="/Work">
-          <button className="py-2 px-8 shadow-xl shadow-purple-500/20 no-underline rounded-full bg-green-700 text-white font-sans font-semibold text-lg  btn-primary hover:text-white  hover:animate-bounce focus:outline-none active:shadow-blue-400 mb-2">Work</button>
-        </NavLink>
-        <NavLink to="/Resume">
-          <button className="py-2 px-8 shadow-xl shadow-purple-500/20 no-underline rounded-full bg-red-600 text-white font-sans font-semibold text-lg btn-primary hover:text-white  hover:animate-bounce focus:outline-none active:shadow-blue-400 mt-14">Resume</button>
-        </NavLink>
-      </div>
+      <div className="flex flex-wrap justify-center space-x-4 sm:space-x-8 md:space-x-36 my-8 select-none border-slate-950 items-center px-4 py-8"> 
+  <NavLink to="/Aboutme">
+    <button  className="py-2 px-8 shadow-xl shadow-purple-500/20 no-underline rounded-full bg-yellow-500 text-white font-sans font-semibold text-lg  btn-primary hover:text-white  hover:animate-bounce focus:outline-none active:shadow-blue-400 mb-2 md:mb-0">About Me</button>
+  </NavLink>
+  <NavLink to="/Work">
+    <button  className="py-2 px-8 shadow-xl shadow-purple-500/20 no-underline rounded-full bg-green-700 text-white font-sans font-semibold text-lg  btn-primary hover:text-white  hover:animate-bounce focus:outline-none active:shadow-blue-400 mb-2 md:mb-0">Work</button>
+  </NavLink>
+  <NavLink to="/Resume">
+    <button  className="py-2 px-8 shadow-xl shadow-purple-500/20 no-underline rounded-full bg-red-600 text-white font-sans font-semibold text-lg btn-primary hover:text-white  hover:animate-bounce focus:outline-none active:shadow-blue-400 mb-2 md:mb-0">Resume</button>
+  </NavLink>
+</div>
       <div>
         {/* Call to Action Section */}
         <section className="mt-24">
