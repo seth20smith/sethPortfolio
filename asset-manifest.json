@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sethPortfolio/static/css/main.a5a3007d.css",
+    "main.js": "/sethPortfolio/static/js/main.796446e1.js",
+    "index.html": "/sethPortfolio/index.html",
+    "main.a5a3007d.css.map": "/sethPortfolio/static/css/main.a5a3007d.css.map",
+    "main.796446e1.js.map": "/sethPortfolio/static/js/main.796446e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5a3007d.css",
+    "static/js/main.796446e1.js"
+  ]
+}
