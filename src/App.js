@@ -1,5 +1,5 @@
 import './index.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 // import { useState } from 'react';
 // import { v4 as uuidv4 } from 'uuid';
 import Header from './components/Header';
@@ -12,7 +12,7 @@ import Work from './routes/Work';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Header>
         <Routes>
           <Route path='/' element={<Home />} />
@@ -22,7 +22,7 @@ function App() {
           <Route path='/resume' element={<Resume />} />
         </Routes>
       </Header>
-    </BrowserRouter>
+    </Router>
   );
 }
 
