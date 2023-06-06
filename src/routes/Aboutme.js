@@ -51,10 +51,10 @@ const Aboutme= () => {
     <section className="AboutMe py-8 px-4">
       
       {/* New Card Section */}
-      <div class=" rounded-lg min-h-screen bg-gradient-to-r from-blue-300 via-gray-500 to-gray-700 flex justify-center items-center py-20 shadow-xl shadow-purple-300/20">
-        <div class="container mx-auto p-12 bg-gray-100 rounded-xl">
-          <h1 class="text-4xl uppercase text-black font-bold from-current mb-8">About Me</h1>
-          <div class="sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-4 space-y-4 sm:space-y-0">
+      <div className=" rounded-lg min-h-screen bg-gradient-to-r from-blue-300 via-gray-500 to-gray-700 flex justify-center items-center py-20 shadow-xl shadow-purple-300/20">
+        <div className="container mx-auto p-12 bg-gray-100 rounded-xl">
+          <h1 className="text-4xl uppercase text-black font-bold from-current mb-8">About Me</h1>
+          <div className="sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-4 space-y-4 sm:space-y-0">
             <Card1 imgSrc="./images/FB2.jpg" />
             <Card2 imgSrc="./images/Teach2.jpg" />
             <Card3 imgSrc="./images/him1.jpg" />

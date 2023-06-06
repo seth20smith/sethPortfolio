@@ -26,13 +26,13 @@ const Work = () => {
         <div className="relative rounded border border-gray-300 p-4">
           <a href="https://seth20smith.github.io/weather-dashboard-wk-6/" className="block">
             <h3 className="font-bold mb-2 text-center">Weather Dashboard</h3>
+             </a>
             <div className="flex flex-col items-center">
               <img src="https://user-images.githubusercontent.com/91171134/141701804-bfd78a06-023b-4b36-8540-71c59fe8d803.png" alt="Weather Dashboard" className="h-90 w-90 object-contain" />
               <a className="mt-2 rounded-full p-2 no-underline hover:bg-blue-500" href="https://github.com/seth20smith/weather-dashboard"> Source Code:
                 <FontAwesomeIcon icon={faGithub} className="h-6 w-6 margin-2 text-black hover:text-white-500" />
               </a>
             </div>
-          </a>
         </div>
 
         {/* Box 2 */}
