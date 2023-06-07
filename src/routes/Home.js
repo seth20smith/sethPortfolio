@@ -53,17 +53,18 @@ function Home() {
           </div>
         </div>
       </section>
-      <div className="flex flex-wrap justify-center space-x-4 sm:space-x-8 md:space-x-36 my-8 select-none border-slate-950 items-center px-4 py-8"> 
+      <div className="flex flex-col sm:flex-row sm:flex-row space-y-6 sm:space-y-0  justify-center space-x-2 sm:space-x-4 md:space-x-8 lg:space-x-36 my-8 select-none border-slate-950 items-center px-4 py-8">
   <NavLink to="/Aboutme">
-    <button  className="py-2 px-8 shadow-xl shadow-purple-500/20 no-underline rounded-full bg-yellow-500 text-white font-sans font-semibold text-lg  btn-primary hover:text-white  hover:animate-bounce focus:outline-none active:shadow-blue-400 mb-2 md:mb-0">About Me</button>
+    <button className="py-2 px-8 shadow-xl shadow-blue-400/40 no-underline rounded-full bg-yellow-400 text-white font-sans font-semibold text-lg btn-primary hover:text-white hover:animate-bounce focus:outline-none active:shadow-blue-400 mb-2 md:mb-0">About Me</button>
   </NavLink>
   <NavLink to="/Work">
-    <button  className="py-2 px-8 shadow-xl shadow-purple-500/20 no-underline rounded-full bg-green-700 text-white font-sans font-semibold text-lg  btn-primary hover:text-white  hover:animate-bounce focus:outline-none active:shadow-blue-400 mb-2 md:mb-0">Work</button>
+    <button className="py-2 px-8 shadow-xl shadow-blue-400/40 no-underline rounded-full bg-green-700 text-white font-sans font-semibold text-lg btn-primary hover:text-white hover:animate-bounce focus:outline-none active:shadow-blue-400 mb-2 md:mb-0">Work</button>
   </NavLink>
   <NavLink to="/Resume">
-    <button  className="py-2 px-8 shadow-xl shadow-purple-500/20 no-underline rounded-full bg-red-600 text-white font-sans font-semibold text-lg btn-primary hover:text-white  hover:animate-bounce focus:outline-none active:shadow-blue-400 mb-2 md:mb-0">Resume</button>
+    <button className="py-2 px-8 shadow-xl shadow-blue-400/40 no-underline rounded-full bg-red-600 text-white font-sans font-semibold text-lg btn-primary hover:text-white hover:animate-bounce focus:outline-none active:shadow-blue-400 mb-2 md:mb-0">Resume</button>
   </NavLink>
 </div>
+
       <div>
         {/* Call to Action Section */}
         <section className="mt-24">

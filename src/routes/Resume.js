@@ -4,7 +4,7 @@ import { useScroll } from '../components/ScrollContext';
 
 
 const SocialButton = ({ href, logoSrc, altText, buttonText, logoSize }) => (
-  <div className="md:w-96 rounded p-5 bg-gradient-to-r from-gray-600 via-gray-300 to-purple-900 shadow-xl shadow-blue-300/30 m-4 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+  <div className="md:w-96 rounded p-5 bg-gradient-to-r from-gray-600 via-gray-300 to-purple-900 shadow-xl shadow-blue-300/0 m-4 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
     <div className="flex flex-col items-center justify-center mb-4">
       <img className={logoSize} src={logoSrc} alt={altText} />
       <a href={href} className="text-black rounded bg-blue-300 focus:outline-none hover:opacity-90 p-2 text-sm font-medium leading-3 mt-2 no-underline">{buttonText}</a>
