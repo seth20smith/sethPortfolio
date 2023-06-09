@@ -41,7 +41,7 @@ const Resume = () => {
         logoSize="h-12 w-22 mb-2"
       />
       <SocialButton 
-        href="https://drive.google.com/file/d/1CPehENhScJSVeklNo_RfyIgz3d2HcVQ3/view?usp=sharing" 
+        href="https://drive.google.com/file/d/1VEv6MGbvL9jmVuDbSiOdwSByJQHQP6_Q/view?usp=sharing"  
         logoSrc="./images/resumePic.png" 
         altText="Resume Logo" 
         buttonText="Seth Smith Resume"
