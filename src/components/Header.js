@@ -136,8 +136,8 @@ export default function Header(props) {
           <p>
             Seth Smith <br />
             Oakland, Ca <br />
-            Phone: (510.282.7693)<br />
-            Email: <NavLink href="mailto:seth20smith@gmail.com">seth20smith@gmail.com</NavLink>
+            Phone: ()<br />
+            Email: <NavLink href="mailto:seth.smith@ousd.org">seth.smith@ousd.org</NavLink>
           </p>
         </div>
         <div className="flex justify-center md:justify-end flex-wrap space-x-2 ">
