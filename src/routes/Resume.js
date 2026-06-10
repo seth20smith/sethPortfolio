@@ -27,21 +27,21 @@ const Resume = () => {
   return (
     <div className="flex items-center justify-center py-8 px-4 flex-wrap">
       <SocialButton 
-        href="https://github.com/seth20smith" 
+        href="" 
         logoSrc="./images/github-mark.png" 
         altText="Github Logo" 
         buttonText="Source Code" 
         logoSize="h-20 w-20 mb-2" 
       />
       <SocialButton 
-        href="https://www.linkedin.com/in/seth20smith" 
+        href="" 
         logoSrc="./images/LI-Logo.png" 
         altText="LinkedIn Logo" 
         buttonText="Seth Smith LinkedIn Profile" 
         logoSize="h-12 w-22 mb-2"
       />
       <SocialButton 
-        href="https://drive.google.com/file/d/1VEv6MGbvL9jmVuDbSiOdwSByJQHQP6_Q/view?usp=sharing"  
+        href=""  
         logoSrc="./images/resumePic.png" 
         altText="Resume Logo" 
         buttonText="Seth Smith Resume"
