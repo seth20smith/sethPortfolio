@@ -29,7 +29,7 @@ const Work = () => {
           </a>
           <div className="flex flex-col items-center">
             <img src="https://user-images.githubusercontent.com/91171134/141701804-bfd78a06-023b-4b36-8540-71c59fe8d803.png" alt="Weather Dashboard" className="h-90 w-90 object-contain" />
-            <a className="mt-2 rounded-full p-2 no-underline hover:text-white hover:bg-yellow-400 hover-shadow" href="https://github.com/seth20smith/weather-dashboard-wk-6"> Source Code:
+            <a className="mt-2 rounded-full p-2 no-underline hover:text-white hover:bg-yellow-400 hover-shadow" href=" "> Source Code:
               <FontAwesomeIcon icon={faGithub} className="h-6 w-6 margin-2 text-black hover:text-white-500" />
             </a>
           </div>
@@ -42,7 +42,7 @@ const Work = () => {
           </a>
           <div className="flex flex-col items-center"></div>
           <img src="https://courses.bootcampspot.com/users/12064/files/1042446/preview?verifier=N5fY1wXjNY0ZpBjivqmF7jtSbF3IUadFDph6Deuo" alt="Work Day Planner" className="h-120 w-120 my-4 object-contain" />
-          <a className="absolute hover:text-white hover:bg-green-700 hover-shadow bottom-4 left-1/2 transform -translate-x-1/2 rounded-full p-2 no-underline " href="https://github.com/seth20smith/typical9to5"> Source Code:
+          <a className="absolute hover:text-white hover:bg-green-700 hover-shadow bottom-4 left-1/2 transform -translate-x-1/2 rounded-full p-2 no-underline " href=""> Source Code:
             <FontAwesomeIcon icon={faGithub} className="h-6 w-6 text-black" />
           </a>
         </div>
@@ -54,7 +54,7 @@ const Work = () => {
           </a>
           <div className="flex flex-col items-center"></div>
           <img src="./images/NoteTaker2.png" alt="Note Taker" className="h-90 w-90 object-contain" />
-          <a className="absolute hover:text-white hover:bg-red-600 hover-shadow bottom-2 left-1/2 transform -translate-x-1/2 rounded-full p-2 no-underline  " href="https://github.com/seth20smith/note_taker">Source Code:
+          <a className="absolute hover:text-white hover:bg-red-600 hover-shadow bottom-2 left-1/2 transform -translate-x-1/2 rounded-full p-2 no-underline  " href="">Source Code:
             <FontAwesomeIcon icon={faGithub} className="h-6 w-6 text-black" />
           </a>
         </div>
@@ -66,7 +66,7 @@ const Work = () => {
             <div className="flex flex-col items-center"></div>
             <img src="./images/Password Gen.png" alt="Password Generator" className="h-90 w-90 object-contain" />
           </a>
-          <a className="absolute hover:text-white hover:bg-yellow-400 hover-shadow bottom-2 left-1/2 transform -translate-x-1/2 rounded-full p-2 no-underline  " href="https://github.com/seth20smith/PasswordGen">Source Code:
+          <a className="absolute hover:text-white hover:bg-yellow-400 hover-shadow bottom-2 left-1/2 transform -translate-x-1/2 rounded-full p-2 no-underline  " href="">Source Code:
             <FontAwesomeIcon icon={faGithub} className="h-6 w-6 text-black " />
           </a>
         </div>
@@ -78,7 +78,7 @@ const Work = () => {
           </a>
           <div className="flex flex-col items-center"></div>
           <img src="./images/codeQuizPic.png" alt="Code Quiz" className="h-90 w-90 object-contain" />
-          <a className="absolute hover:text-white hover:bg-green-700 hover-shadow bottom-2 left-1/2 transform -translate-x-1/2 rounded-full p-2 no-underline  " href="https://github.com/seth20smith/week4codequiz">Source Code:
+          <a className="absolute hover:text-white hover:bg-green-700 hover-shadow bottom-2 left-1/2 transform -translate-x-1/2 rounded-full p-2 no-underline  " href="">Source Code:
             <FontAwesomeIcon icon={faGithub} className="h-6 w-6 text-black" />
           </a>
         </div>
@@ -90,7 +90,7 @@ const Work = () => {
           </a>
           <div className="flex flex-col items-center"></div>
           <img src="./images/Profile Gen.png" alt="Employee Database" className="h-90 w-90 object-contain" />
-          <a className="absolute hover:text-white hover:bg-red-600 hover-shadow bottom-2 left-1/2 transform -translate-x-1/2 rounded-full p-2 no-underline  " href="https://github.com/seth20smith/Programming-Challenge-10">Source Code:
+          <a className="absolute hover:text-white hover:bg-red-600 hover-shadow bottom-2 left-1/2 transform -translate-x-1/2 rounded-full p-2 no-underline  " href="">Source Code:
             <FontAwesomeIcon icon={faGithub} className="h-6 w-6 text-black" />
           </a>
         </div>
@@ -102,7 +102,7 @@ const Work = () => {
           </a>
           <div className="flex flex-col items-center"></div>
           <img src="./images/Vacation Planner.png" alt="Day Trip Planner" className="h-90 w-90 object-contain" />
-          <a className="absolute hover:text-white hover:bg-yellow-400 hover-shadow bottom-2 left-1/2 transform -translate-x-1/2 rounded-full p-2 no-underline  " href="https://github.com/seth20smith/day-trip-planner">Source Code:
+          <a className="absolute hover:text-white hover:bg-yellow-400 hover-shadow bottom-2 left-1/2 transform -translate-x-1/2 rounded-full p-2 no-underline  " href="">Source Code:
             <FontAwesomeIcon icon={faGithub} className="h-6 w-6 text-black" />
           </a>
         </div>
@@ -114,7 +114,7 @@ const Work = () => {
           </a>
           <div className="flex flex-col items-center"></div>
           <img src="./images/ExpressPic.png" alt="Blood Tied Kennel" className="h-90 w-90 object-contain" />
-          <a className="absolute hover:text-white hover:bg-green-700 hover-shadow bottom-2 left-1/2 transform -translate-x-1/2 rounded-full p-2 no-underline  " href="https://github.com/seth20smith/eCom_backEnd_13">Source Code:
+          <a className="absolute hover:text-white hover:bg-green-700 hover-shadow bottom-2 left-1/2 transform -translate-x-1/2 rounded-full p-2 no-underline  " href="">Source Code:
             <FontAwesomeIcon icon={faGithub} className="h-6 w-6 text-black" />
           </a>
         </div>
@@ -126,7 +126,7 @@ const Work = () => {
           </a>
           <div className="flex flex-col items-center"></div>
           <img src="./images/Employee Database.png" alt="Blood Tied Kennel" className="h-90 w-90 object-contain" />
-          <a className="absolute hover:text-white hover:bg-red-600 hover-shadow bottom-2 left-1/2 transform -translate-x-1/2 rounded-full p-2 no-underline  " href="https://github.com/seth20smith/Employee_database_12">Source Code:
+          <a className="absolute hover:text-white hover:bg-red-600 hover-shadow bottom-2 left-1/2 transform -translate-x-1/2 rounded-full p-2 no-underline  " href="">Source Code:
             <FontAwesomeIcon icon={faGithub} className="h-6 w-6 text-black" />
           </a>
         </div>
